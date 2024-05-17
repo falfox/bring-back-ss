@@ -29,7 +29,7 @@ function waitForWebpackChunkstudystream() {
         }
 
         console.log("[Bypass Pin] Waiting for webpackChunkstudystream to load...");
-        setTimeout(waitForWebpackChunkstudystream, 500); // Check again after 100 milliseconds
+        setTimeout(waitForWebpackChunkstudystream, 500); // Check again after 500 milliseconds
     }
 }
 
